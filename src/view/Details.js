@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
+import DetailsModel from '../model/DetailsModel';
 
-const Details = ({ cover, name, artist, year})=>{
+<DetailsModel/>
+const Details = ()=>{
     return(
     <GridListTile key={cover} style={{margin: '8px'}}>
         <img src={cover} alt ={name} style={{ width:'200px'}}/>
@@ -15,6 +17,18 @@ const Details = ({ cover, name, artist, year})=>{
             }
         />
     </GridListTile>
-    )};
+    )
+
+    render()
+        return(
+            <div className="">
+                {Details}
+            </div>
+        )
+    
+}
+
+
+
 
 export default Details;
