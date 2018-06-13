@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FetchAPI from './FetchAPI';
+import FetchAPI from './controller/FetchAPI';
+import Details from './view/Details';
 
 class App extends Component {
   
